@@ -6,3 +6,7 @@ alias java11='export JAVA_HOME=$JAVA_11_HOME'
 alias c=clear
 alias ll='ls -la'
 alias gm='git checkout master'
+alias push='git push'
+alias pull='git pull'
+alias gfu='git fetch upstream'
+alias gmu='git merge upstream/master'
