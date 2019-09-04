@@ -13,3 +13,5 @@ alias gmu='git merge upstream/master'
 alias mee='mvn clean eclipse:clean eclipse:eclipse'
 alias gg='cd ~/Documents/GitHub'
 alias stc='sbt clean test:compile'
+alias python36x='pyenv version 3.6.9'
+alias python3.6=python
