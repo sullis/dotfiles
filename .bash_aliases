@@ -19,3 +19,6 @@ alias scov='clean coverage test coverageReport'
 alias python36x='pyenv version 3.6.9'
 alias lg='git lg'
 alias stopdock='docker ps -q | xargs docker stop'
+mtest() {
+  mvn -Dtest=$1 test
+}
