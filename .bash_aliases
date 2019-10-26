@@ -11,6 +11,7 @@ alias pull='git pull'
 alias gfu='git fetch upstream'
 alias gmu='git merge upstream/master'
 alias mee='mvn clean eclipse:clean eclipse:eclipse'
+alias mcc='mvn clean eclipse:clean'
 alias gg='cd ~/code'
 alias ocov='open target/scala-2.12/scoverage-report/index.html'
 alias stc='sbt clean test:compile'
@@ -19,6 +20,7 @@ alias scov='clean coverage test coverageReport'
 alias python36x='pyenv version 3.6.9'
 alias lg='git lg'
 alias stopdock='docker ps -q | xargs docker stop'
+alias draft='hub pull-request --draft'
 mtest() {
   mvn -Dtest=$1 test
 }
