@@ -21,6 +21,8 @@ alias python36x='pyenv version 3.6.9'
 alias lg='git lg'
 alias stopdock='docker ps -q | xargs docker stop'
 alias draft='hub pull-request --draft'
+alias v2='cd ~/code/aws-sdk-java-v2'
+alias v1='cd ~/code/aws-sdk-java'
 mtest() {
   mvn -Dtest=$1 test
 }
