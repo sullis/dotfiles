@@ -23,6 +23,7 @@ alias stopdock='docker ps -q | xargs docker stop'
 alias draft='hub pull-request --draft'
 alias v2='cd ~/code/aws-sdk-java-v2'
 alias v1='cd ~/code/aws-sdk-java'
+alias tags='git tag --list'
 mtest() {
   mvn -Dtest=$1 test
 }
