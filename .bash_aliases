@@ -28,6 +28,7 @@ alias v2='cd ~/code/aws-sdk-java-v2'
 alias v1='cd ~/code/aws-sdk-java'
 alias tags='git tag --list'
 alias rmorig='find . -name *.orig | xargs rm -f '
+alias mvim='/Applications/MacVim.app/Contents/bin/mvim'
 mtest() {
   mvn -Dtest=$1 test
 }
