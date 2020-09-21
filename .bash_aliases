@@ -7,6 +7,7 @@ alias java8='export JAVA_HOME=$JAVA_8_HOME'
 alias java11='export JAVA_HOME=$JAVA_11_HOME'
 alias java13='export JAVA_HOME=$JAVA_13_HOME'
 alias java14='export JAVA_HOME=$JAVA_14_HOME'
+alias java15='export JAVA_HOME=$JAVA_15_HOME'
 alias c=clear
 alias ll='ls -la'
 alias gm='git checkout master'
