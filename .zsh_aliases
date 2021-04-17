@@ -12,6 +12,7 @@ alias java15='export JAVA_HOME=$JAVA_15_HOME'
 alias c=clear
 alias ll='ls -la'
 alias gm='git checkout master'
+alias gmm='git checkout master'
 alias gsu='git submodule update --init --recursive'
 alias push='git push'
 alias pull='git pull'
