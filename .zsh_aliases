@@ -43,6 +43,7 @@ alias rmtarget='find . -name target | xargs rm -rf '
 alias rmbak='find . -name *.bak | xargs rm -f '
 alias mvim='/Applications/MacVim.app/Contents/bin/mvim'
 alias jsonp='python -mjson.tool'
+alias go-offline='mvn dependency:go-offline'
 mtest() {
   mvn -Dtest=$1 test
 }
