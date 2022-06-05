@@ -46,7 +46,7 @@ alias rmbak='find . -name *.bak | xargs rm -f '
 alias mvim='/Applications/MacVim.app/Contents/bin/mvim'
 alias jsonp='python -mjson.tool'
 alias goff='mvn dependency:go-offline dependency:sources'
-alias oss='cd ~/GitHub'
+alias oss='cd ~/oss'
 alias zz='cd ~/GitHub/zuul'
 mtest() {
   mvn -Dtest=$1 test
