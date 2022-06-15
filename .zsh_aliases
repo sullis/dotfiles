@@ -48,6 +48,7 @@ alias jsonp='python -mjson.tool'
 alias goff='mvn dependency:go-offline dependency:sources'
 alias oss='cd ~/oss'
 alias zz='cd ~/GitHub/zuul'
+alias genlock='./gradlew generateLock saveLock'
 mtest() {
   mvn -Dtest=$1 test
 }
