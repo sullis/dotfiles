@@ -51,6 +51,7 @@ alias oss='cd ~/oss'
 alias zz='cd ~/GitHub/zuul'
 alias genlock='./gradlew generateLock saveLock'
 alias gcb='./gradlew clean build'
+alias nn='cd ~/GitHub/netty'
 
 mtest() {
   mvn -Dtest=$1 test
