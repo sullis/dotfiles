@@ -3,14 +3,14 @@ export JAVA_11_HOME=$(/usr/libexec/java_home -v11) 2> /dev/null
 export JAVA_13_HOME=$(/usr/libexec/java_home -v13) 2> /dev/null
 export JAVA_15_HOME=$(/usr/libexec/java_home -v15) 2> /dev/null
 export JAVA_17_HOME=$(/usr/libexec/java_home -v17) 2> /dev/null
-export JAVA_18_HOME=$(/usr/libexec/java_home -v18) 2> /dev/null
+export JAVA_20_HOME=$(/usr/libexec/java_home -v20) 2> /dev/null
 alias atom='/Applications/Atom.app/Contents/Resources/app/atom.sh'
 alias java8='export JAVA_HOME=$JAVA_8_HOME'
 alias java11='export JAVA_HOME=$JAVA_11_HOME'
 alias java13='export JAVA_HOME=$JAVA_13_HOME'
 alias java15='export JAVA_HOME=$JAVA_15_HOME'
 alias java17='export JAVA_HOME=$JAVA_17_HOME'
-alias java18='export JAVA_HOME=$JAVA_18_HOME'
+alias java20='export JAVA_HOME=$JAVA_20_HOME'
 alias c=clear
 alias ll='ls -la'
 alias gm='git checkout master'
