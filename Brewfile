@@ -1,0 +1,6 @@
+brew "maven"
+brew "gradle"
+brew "bazelisk"
+brew "sbt"
+brew "docker"
+brew "awscli"
