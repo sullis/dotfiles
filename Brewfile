@@ -1,3 +1,4 @@
+brew "golang"
 brew "maven"
 brew "gradle"
 brew "bazelisk"
