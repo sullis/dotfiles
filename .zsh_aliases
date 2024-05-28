@@ -52,10 +52,10 @@ alias rgv="rg 'values\\(\\)'"
 alias jsonp='python -mjson.tool'
 alias goff='mvn dependency:go-offline dependency:sources'
 alias oss='cd ~/oss'
-alias zz='cd ~/GitHub/zuul'
+alias zz='cd ~/oss/zuul'
 alias genlock='./gradlew generateLock saveLock'
 alias gcb='./gradlew clean build'
-alias nn='cd ~/GitHub/netty'
+alias nn='cd ~/oss/netty'
 
 mtest() {
   mvn -Dtest=$1 test
