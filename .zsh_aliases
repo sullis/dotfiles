@@ -57,6 +57,7 @@ alias genlock='./gradlew generateLock saveLock'
 alias gcb='./gradlew clean build'
 alias nn='cd ~/code/netty'
 alias remote='git remote -v'
+alias rr='git remote -v'
 
 mtest() {
   mvn -Dtest=$1 test
