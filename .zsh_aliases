@@ -58,6 +58,7 @@ alias gcb='./gradlew clean build'
 alias nn='cd ~/code/netty'
 alias remote='git remote -v'
 alias rr='git remote -v'
+alias nq='networkQuality'
 
 mtest() {
   mvn -Dtest=$1 test
