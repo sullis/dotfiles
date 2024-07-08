@@ -15,3 +15,5 @@ source ~/.zsh_aliases
 export SDKMAN_DIR="$HOME/.sdkman"
 [[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
 export PATH="/opt/homebrew/sbin:$PATH"
+
+export PATH="$PATH:${GOPATH:-$HOME/go}/bin"
