@@ -29,3 +29,4 @@ brew "helm"
 brew "protobuf"
 brew "redis"
 brew "confluentinc/tap/cli"
+brew 'gnu-tar'
