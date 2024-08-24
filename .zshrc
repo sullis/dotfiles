@@ -17,3 +17,5 @@ export SDKMAN_DIR="$HOME/.sdkman"
 export PATH="/opt/homebrew/sbin:$PATH"
 
 export PATH="$PATH:${GOPATH:-$HOME/go}/bin"
+
+PATH="/opt/homebrew/opt/gnu-tar/libexec/gnubin:$PATH"
