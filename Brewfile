@@ -28,5 +28,6 @@ brew "kubectl"
 brew "helm"
 brew "protobuf"
 brew "redis"
-brew "confluentinc/tap/cli"
 brew 'gnu-tar'
+brew "confluentinc/tap/cli"
+brew 'pulumi/tap/pulumi'
