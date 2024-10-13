@@ -28,6 +28,7 @@ brew "kubectl"
 brew "helm"
 brew "protobuf"
 brew "redis"
+brew "duckdb"
 brew 'gnu-tar'
 brew "confluentinc/tap/cli"
 brew 'pulumi/tap/pulumi'
