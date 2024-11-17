@@ -64,6 +64,7 @@ alias nn='cd ~/code/netty'
 alias remote='git remote -v'
 alias rr='git remote -v'
 alias nq='networkQuality'
+alias modsync='mod config recipes moderne sync'
 
 mtest() {
   mvn -Dtest=$1 test
