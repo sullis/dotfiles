@@ -29,6 +29,7 @@ brew "helm"
 brew "protobuf"
 brew "redis"
 brew "duckdb"
+brew "jreleaser"
 brew 'gnu-tar'
 brew "confluentinc/tap/cli"
 brew 'pulumi/tap/pulumi'
