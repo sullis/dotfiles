@@ -16,6 +16,7 @@ alias java20='export JAVA_HOME=$JAVA_20_HOME'
 alias java21='export JAVA_HOME=$JAVA_21_HOME'
 alias buu='brew update && brew upgrade claude-code copilot-cli gemini-cli gh docker docker-compose gradle sbt'
 alias c=clear
+alias prl="gh pr list"
 alias gls="gh agent-task list"
 alias glw="gh agent-task list --web"
 alias ll='ls -la'
