@@ -71,6 +71,7 @@ alias remote='git remote -v'
 alias rr='git remote -v'
 alias nq='networkQuality'
 alias modsync='mod config recipes moderne sync'
+alias coreview='copilot --yolo -i "/review this with both codex and opus"'
 
 mtest() {
   mvn -Dtest=$1 test
