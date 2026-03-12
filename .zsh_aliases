@@ -72,6 +72,7 @@ alias rr='git remote -v'
 alias nq='networkQuality'
 alias modsync='mod config recipes moderne sync'
 alias coreview='copilot --yolo -i "/review this with both codex and opus"'
+alias klaude='claude --dangerously-skip-permissions'
 
 mtest() {
   mvn -Dtest=$1 test
