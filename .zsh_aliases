@@ -73,6 +73,7 @@ alias nq='networkQuality'
 alias modsync='mod config recipes moderne sync'
 alias coreview='copilot --yolo -i "/review this with both codex and opus"'
 alias kopilot='copilot --yolo'
+alias kemini='gemini --yolo'
 alias klaude='claude --dangerously-skip-permissions'
 
 mtest() {
