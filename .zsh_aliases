@@ -77,6 +77,7 @@ alias kopilot='copilot --yolo'
 alias kemini='gemini --yolo'
 alias klaude='claude --dangerously-skip-permissions'
 alias modsync='mod config recipes moderne sync'
+alias modapply='mod git apply . --last-recipe-run'
 
 mtest() {
   mvn -Dtest=$1 test
