@@ -35,6 +35,7 @@ brew "jreleaser"
 brew 'gnu-tar'
 brew "confluentinc/tap/cli"
 brew 'pulumi/tap/pulumi'
+brew 'microsoft/apm/apm'
 brew "copilot-cli"
 brew "gemini-cli"
 cask "claude-code"
