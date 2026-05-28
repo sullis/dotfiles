@@ -78,6 +78,7 @@ alias kemini='gemini --yolo'
 alias klaude='claude --dangerously-skip-permissions'
 alias modsync='mod config recipes moderne sync'
 alias modapply='mod git apply . --last-recipe-run'
+alias gww='./gradlew wrapper --gradle-version=9.5.1 && ./gradlew wrapper'
 
 mtest() {
   mvn -Dtest=$1 test
