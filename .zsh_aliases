@@ -81,6 +81,7 @@ alias modapply='mod git apply . --last-recipe-run'
 alias gww='./gradlew wrapper --gradle-version=9.6.1 && ./gradlew wrapper'
 alias gww95='./gradlew wrapper --gradle-version=9.5.1 && ./gradlew wrapper'
 alias gww96='./gradlew wrapper --gradle-version=9.6.1 && ./gradlew wrapper'
+alias cpr='claude -p "create pr"'
 
 mtest() {
   mvn -Dtest=$1 test
