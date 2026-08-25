@@ -83,10 +83,10 @@ alias gww95='./gradlew wrapper --gradle-version=9.5.1 && ./gradlew wrapper'
 alias gww96='./gradlew wrapper --gradle-version=9.6.1 && ./gradlew wrapper'
 alias gww97='./gradlew wrapper --gradle-version=9.7.1 && ./gradlew wrapper'
 alias gwl='./gradlew :wrapper --gradle-version latest'
-alias cpr='claude -p "create pr"'
-alias upr='claude -p "update pr description"'
+alias cpr='claude --permission-mode auto -p "create pr"'
+alias upr='claude --permission-mode auto -p "update pr description"'
 alias pmd='./gradlew pmdTest pmdMain'
-alias fixpmd='claude -p "run pmdMain and pmdTest. fix pmd violations"'
+alias fixpmd='claude --permission-mode auto -p "run pmdMain and pmdTest. fix pmd violations"'
 
 mtest() {
   mvn -Dtest=$1 test
