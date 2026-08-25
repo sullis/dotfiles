@@ -86,6 +86,7 @@ alias gwl='./gradlew :wrapper --gradle-version latest'
 alias cpr='claude -p "create pr"'
 alias upr='claude -p "update pr description"'
 alias pmd='./gradlew pmdTest pmdMain'
+alias fixpmd='claude -p "run pmdMain and pmdTest. fix pmd violations"'
 
 mtest() {
   mvn -Dtest=$1 test
