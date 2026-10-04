@@ -89,6 +89,7 @@ alias upr='claude --permission-mode auto -p "update pr description"'
 alias dbot='claude --permission-mode auto -p "This repo has open pull requests.  Tell dependabot to recreate each pull request"'
 alias pmd='./gradlew pmdTest pmdMain'
 alias fixpmd='claude --permission-mode auto -p "run pmdMain and pmdTest. fix pmd violations"'
+alias ghl='gh pr list'
 
 mtest() {
   mvn -Dtest=$1 test
